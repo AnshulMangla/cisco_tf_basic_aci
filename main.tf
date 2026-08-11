@@ -10,8 +10,8 @@ terraform {
 # Provider Configuration
 provider "aci" {
     url = "https://x.x.x.x"
-    username = "anmangla"
-    password = "mangla1234"
+    username = "user"
+    password = "user1234"
 }
 
 resource "aci_tenant" "anshul_terraform5" {
