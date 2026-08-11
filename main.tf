@@ -9,9 +9,9 @@ terraform {
 
 # Provider Configuration
 provider "aci" {
-    url = "https://10.106.236.54"
-    username = "pandapa"
-    password = "cisco!123"
+    url = "https://x.x.x.x"
+    username = "anmangla"
+    password = "mangla1234"
 }
 
 resource "aci_tenant" "anshul_terraform5" {
